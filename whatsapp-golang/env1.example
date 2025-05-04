@@ -1,0 +1,2 @@
+DATA_SOURCE=host=localhost port=5432 user=postgres dbname=whatsapp sslmode=disable
+REDIS_URL=redis://localhost:6379

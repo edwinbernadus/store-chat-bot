@@ -1,0 +1,11 @@
+GOOGLE_GENERATIVE_AI_API_KEY=
+DB_URL=postgres://postgres:postgres@localhost:5432/postgres
+
+;telegram section
+TELEGRAM_MODE=1
+TELEGRAM_BOT_TOKEN=
+
+;whatsapp section
+WHATSAPP_MODE=0
+WHATSAPP_SERVER_URL=http://localhost:8080
+REDIS=redis://localhost:6379
