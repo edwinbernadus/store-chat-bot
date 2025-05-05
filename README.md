@@ -1,7 +1,9 @@
 # Store Chat Bot
 
-A chatbot agent to assist users with orders in store or a cafe
-A smart receptionist bot built with **Mastra** to automate order-taking and improve customer interaction via Telegram and WhatsApp.
+A chatbot agent to assist users with orders in store or a cafe environment.
+
+A smart receptionist bot built with [**Mastra**](https://github.com/mastra-ai/mastra) 
+to automate order-taking and improve customer interaction via Telegram and WhatsApp.
 
 ---
 
@@ -123,7 +125,7 @@ Navigate to: `llm/src/`
    ```
 2. Setup environment variables:
    ```bash
-   cp .env.example .env
+   cp env1.example .env
    # In .env, set:
    WHATSAPP_MODE=1
    ```
@@ -140,15 +142,15 @@ Navigate to: `whatsapp-golang/`
 
 1. Install Go dependencies:
    ```bash
-   go mod tidy
+   go build
    ```
 2. Setup environment variables:
    ```bash
-   cp .env.example .env
+   cp env1.example .env
    ```
 3. Start the Go WhatsApp service:
    ```bash
-   go run main.go
+   go run .
    ```
 
 ---
@@ -159,3 +161,10 @@ This project is based on:
 
 - [Mastra Telegram Example](https://github.com/mastra-ai/personal-assistant-example)
 - [MCP WhatsApp Integration](https://github.com/lharries/whatsapp-mcp)  
+
+## Contribution Guidelines
+
+Contributions are encouraged! Feel free to open issues or submit pull requests.
+
+## License
+This project is distributed under MIT.
